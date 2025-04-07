@@ -1,0 +1,97 @@
+/* chỉnh header */
+.header {
+    display: flex;
+    height: 300px;
+    justify-content: space-evenly;
+    text-align: center;
+    background-image: url(img/header2.jpg);
+}
+/* chỉnh bên trong header */
+.nhom1 {
+    padding: 10px;
+    text-align: center;
+}
+#tieu_de {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px ;
+}
+.logo_nen {
+    width: auto;
+    height: 250px;
+    padding: 50px 100px;
+}
+#logo {
+    width: auto;
+    height: 230px;
+    border-radius: 30px;
+}
+/* chỉnh thanh navigation  */
+a{
+    text-decoration: none;
+}
+.nav {
+    display: flex;
+    width: 1440px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 20px 40px;
+    font-size: 30px;
+    background-color: #99FFFF;
+    border-radius: 30px;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(45px);
+    text-decoration: none;
+}
+.trong_nav:hover {
+    border-radius: 10px;
+    color: black;
+    font: bolder;
+    text-decoration: none;
+}
+/* chỉnh layout flex cho phần nd */
+.noidung { 
+    width: 1440px;
+    margin: 0 auto;
+}
+.trong_nd {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img {
+    width: auto;
+    height: 300px;
+}
+.chu_ne {
+    padding-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.nhan_xet {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+.sptt {
+    display: flex;
+    justify-content: center;
+}
+/* chỉnh footer   */
+.footer {
+    display: flex;
+    width: auto;
+    height: 200px;
+    justify-content: space-between;
+    background-color: #333333;
+}
+/* chỉnh bên trong footer   */
+.chucuoicung {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.hinhmeocuoi {
+    width: auto;
+}
